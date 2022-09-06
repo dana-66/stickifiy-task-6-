@@ -14,14 +14,14 @@ body {
 
 /* the navbar in header */
 .navbar {
-    display: flex;
+    /* display: flex; */
     /* display: none; */
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    left: 0;
+    /* justify-content: flex-start; */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
     background: #D859FF;
-    width: 100%;
+    /* width: 100%; */
     padding-top:11px;
     padding-bottom: 11px;
 }
@@ -39,23 +39,25 @@ body {
 .navbar ul li a {
     text-decoration:none;
     color: #000000;
+    display: flex;
+}
+.navbar ul li a img {
+    margin-right: 10px;
 }
 .navbar ul li a:hover {
     opacity: 0.7;
 }
 
 .page-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     background: #EEEEEE;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 /* album page section */
 .album-page {
-    margin-top: 78px;
+    margin-top: 33px;
     margin-left: 35px;
-    /* scrollbar-color:#999999 #fff;
-    height: 550px;
-    overflow-y: scroll; */
     background-color: #FFFFFF;
 }
 .scroll-container{
@@ -159,6 +161,7 @@ body {
 .u-may-also-like .sugestion-content{
     display: flex;
     flex-direction: column;
+    margin-right: 32px;
 }
 .u-may-also-like .sugestion-content .heading {
     background: #D859FF;
@@ -177,11 +180,11 @@ body {
 .u-may-also-like .sugestion-content .artist-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://th.bing.com/th/id/OIF.YllEwX5W9utWX5gGE7yiXg?w=271&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7");
-    background-size: cover;
+    background-size: cover center;
     text-align: center;
     position: relative;
     padding: 50px 65px 50px 65px;
-
+    margin-bottom: 1px;
 }
 .u-may-also-like .sugestion-content .artist-txt {
     margin: 0 auto;
@@ -201,6 +204,7 @@ body {
     text-align: center;
     position: relative;
     padding: 50px 0 50px 0;
+    margin-bottom: 1px;
 }
 
 .u-may-also-like .sugestion-content .artist-3 {
@@ -210,6 +214,7 @@ body {
     text-align: center;
     position: relative;
     padding: 50px 0px 50px 0;
+    margin-bottom: 1px;
 }
 
 .u-may-also-like .sugestion-content .artist-4 {
@@ -219,6 +224,7 @@ body {
     text-align: center;
     position: relative;
     padding: 50px 0px 50px 0px;
+    margin-bottom: 1px;
 }
 .artist-txt h2 {
     font-size: 18px;
@@ -236,8 +242,7 @@ body {
 
 }
 .u-may-also-like {
-    margin-top: 78px;
-    /* margin-right: 32px; */
+    margin-top: 33px;
     margin-left: 21px;
 }
 
@@ -253,6 +258,7 @@ footer.footer-wrapper{
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .footer-wrapper ul.music-btns {
