@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Group_11" data-name="Group 11" transform="translate(-56.5 -277.5)">
+    <path id="Stroke" d="M115,373a11,11,0,1,1,11,11,11,11,0,0,1-11-11Z" transform="translate(-58 -84)" fill="#fff" stroke="#ddd" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+    <path id="Icon" d="M130,373a.316.316,0,0,0-.223-.285l-5.183-2.624a.5.5,0,0,0-.248-.091.33.33,0,0,0-.346.3v5.4a.329.329,0,0,0,.346.3.5.5,0,0,0,.248-.09l5.183-2.624A.318.318,0,0,0,130,373Z" transform="translate(-58 -84)" fill="#838d8f" fill-rule="evenodd"/>
+  </g>
+</svg>
