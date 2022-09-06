@@ -50,7 +50,7 @@ body {
 
 .page-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 400px;
     background: #EEEEEE;
     justify-content: space-around;
 }
