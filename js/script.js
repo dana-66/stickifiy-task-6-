@@ -101,7 +101,7 @@ document.getElementById('previous').addEventListener('click', ()=>{
         songIndex -= 1;
     } 
     audioElement.src = `../media/${songIndex}.mp3`;
-        masterSongName.innerText = songs[songIndex].songName;
+        masterSongName.innerText = songs[songIndex-1].songName;
         audioElement.currentTime = 0;
         audioElement.play();
         masterPlay.classList.remove('fa-pause-circle');
